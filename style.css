@@ -1,0 +1,570 @@
+/* regole generali*/
+body {
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    background: rgba(169, 131, 7, 0.2);
+}
+/*design system FONT*/
+p {font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #333C3F}
+h1 {font-family: 'Laila';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 99px;
+    letter-spacing: -0.02em;
+    color: #07495D;}
+h2 {font-family: Laila;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 62px;
+    letter-spacing: -0.02em;
+    color: #07495D;}
+h3 {font-family: Laila;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 37px;
+    letter-spacing: -0.02em;
+    color: #5D1B07;}
+.subtitle {font-family: Laila;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 37px;
+    color: #07495D;
+}
+.pretitle {font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #5D1B07;
+}
+
+strong {
+    font-family: Raleway;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5D1B07;
+}
+
+li {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #333C3F
+}
+
+/*configurazione grafica bottoni*/
+.button {
+    background: #A9310D;
+    border: 1px solid #A98307;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 168px;
+    left: 241px;
+    top: 707px;
+    text-decoration: none;
+    font-family: Laila;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FAE08C;
+    padding: 10px 40px;
+    text-align: center;
+}
+
+/*menù*/
+.navbar {
+    position:fixed;
+    display: flex;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1;
+    background: #07495D;
+    border: 3px solid #A98307;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+    text-align: right;
+}
+.navbar img{
+    width: 166px;
+    height: 75px;
+    margin-left: 20px;
+}
+.navbar li {
+    display: inline-block;
+
+}
+.navbar ul a {
+    text-decoration: none;
+    color: #A98307;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    font-family: Laila;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.navbar a:hover {
+    color: #EE4B1A;
+}
+
+#active {
+    color: #EE4B1A;
+}
+
+/*footer*/
+footer {
+    background: #07495D;
+    border: 3px solid #A98307;
+    box-sizing: border-box;
+    width: 100%;
+    top: 920px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 40px;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-content a {
+    text-decoration-line: underline;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #A98307;
+}
+
+.link-attori {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: right;
+
+}
+.link-registi {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.link-sin {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+footer hr {
+    align-self: center;
+    width:95%;
+    border: 1px solid #A98307;
+}
+.copyright p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #A98307;
+}
+.footer-basso {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 40px;
+
+}
+.disney {
+    margin-right: 180px;
+}
+
+
+/* elementi pagina HOME*/
+
+.HomePage {
+    display: flex;
+    margin-top: 75px;
+    z-index: -1;
+}
+
+#sfondo {
+    width: 70%;
+    z-index: -1;
+}
+#sfondo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#barralaterale {
+    width: 30%;
+}
+#content {
+    background: rgba(93, 27, 7, 0.78);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    width: 120%;
+    padding-bottom: 20%;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+
+
+#TitoloHome {
+    color: #FAE08C;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#paragrafohome {
+    color: #E8EEF0;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/*elementi pagina Gallery*/
+#titoloGallery {
+    margin-left: 8%;
+    margin-top: 8%;
+}
+#imgsn {
+    width: 42%;
+    margin: 1%;
+    display:flex;
+    flex-direction: column;
+}
+#imgdx {
+    width: 58%;
+    margin: 1%;
+    display:flex;
+    flex-direction: column;
+}
+.immagini {
+    display: flex;
+    flex-direction: row;
+    margin: 2% 5%;
+
+}
+.immagini img {
+    padding: 10px;
+}
+
+
+
+/*elementi pagina Curiosità*/
+
+.titoloC {
+    display: flex;
+    margin: 10% 8% 2% 8%;
+    align-items: center;
+    height: 20%;
+}
+
+#h1C {
+    width: 35%;
+}
+
+#imgC {
+    width: 65%;
+
+}
+
+#imgC img {
+    width: 90%;
+    padding: 30px;
+}
+
+.lineaC {
+    border: 3px solid #A98307;
+    align-self: center;
+    width:85%;
+
+}
+
+.item1 {
+    display: flex;
+    align-items: center;
+    margin: 2% 10%;
+}
+
+.imageitem {
+    padding: 3%;
+}
+
+.contentitem {
+    padding: 3%;
+    width: 55%;
+}
+
+#imageitem img {
+    width: 100%;
+}
+
+.item2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 1% 10%;
+
+}
+
+/*elementi pagina il film*/
+
+/*header Il FIlm*/
+.headerFilm {
+    display: flex;
+    align-items: center;
+    margin: 10% 10% 5% 8%;
+    height: 500px;
+}
+
+#h1C {
+    margin-left: 8%;
+    width: 35%;
+}
+
+#videotrailer {
+    width: 65%;
+    height: 100%;
+}
+
+#videotrailer iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/*elementi comuni pagina il film*/
+.accordion {
+    background: rgba(7, 73, 93, 0.99);
+    border: 3px solid #A98307;
+    border-radius: 30px;
+    width: 80%;
+    padding: 1%;
+    margin-left: 10%;
+    font-family: Laila;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #A98307;
+    cursor: pointer;
+}
+.accordion:after {
+    content: url("Icon/Clikdown.svg");
+    margin-top: 4px;
+    padding-left: 4%;
+}
+
+.active:after {
+    content: url("Icon/ClickUp.svg");
+}
+
+.sezione {
+    width: 80%;
+    margin: 0 10%;
+    height: 100%;
+    display: none;
+}
+.text {
+    width: 60%;
+    padding: 1%;
+
+}
+.text h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#paragrafo-text {
+    margin-top: 5px;
+}
+.text li {
+    display: flex;
+}
+/* sezione descrizione*/
+.imgF1 {
+    width: 40%;
+    padding: 1%;
+    border-radius: 8px;
+}
+.imgF1 img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 8px;
+}
+/* sezione cast*/
+.nomecard {
+    font-family: Laila;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #07495D;
+}
+.sezione2 {
+    flex-direction: column;
+    width: 80%;
+    margin: 0 10%;
+    height: 100%;
+    display: none;
+}
+
+#titolisezione2 h2{
+    margin: 0.5%;
+}
+.cardprincipali {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 25%;
+    padding: 20px;
+    background: rgba(238, 75, 26, 0.31);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
+.pcard {
+    margin: 2px;
+}
+
+.cardsecondari {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 19%;
+    padding: 20px;
+    background: rgba(238, 75, 26, 0.31);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
+
+.itemFilm {
+    margin-bottom: 2%;
+}
+/* sezione della regia*/
+.nomiregia {
+    font-weight: bold;
+}
+
+#paragrafocorsivo {
+    font-style: italic;
+}
+
+#alignsn {
+    text-align: right;
+}
+
+.maiuscolo {
+    text-transform: uppercase;
+    color:#07495D;
+}
+.colorblu {
+    color:#07495D;
+}
+
+.cardcritica {
+    width: 100%;
+    background: rgba(238, 75, 26, 0.31);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    padding: 10px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.stelle {
+    padding-right: 5%;
+}
+.valutazionestelle {
+    display: flex;
+    align-items: center;
+}
+
+.buttoncritica {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.buttoncritica a{
+    padding: 2% 1%;
+}
+
+/* sezione link*/
+
+#sezioneLink {
+    width: 80%;
+    margin: 2% 10%;
+    height: 100%;
+    display: none;
+}
+.elencolink a {
+    color: #333C3F;
+    font-weight: bold;
+}
+#linksiti {
+    width: 40%;
+    padding: 0 4%;
+    border-right: 1px solid #A98307;
+}
+
+
+#guardareilfilm {
+    width: 40%;
+    padding: 0 4%;
+    border-left: 1px solid #A98307;
+}
+

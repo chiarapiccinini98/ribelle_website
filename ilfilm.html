@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>ilfilm | RIbelle the brave</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="accordion.js" defer> </script>
+</head>
+
+<body>
+<!-- menù-->
+    <div class="navbar">
+        <a id="logo" href="index.html"><img src="Icon/logo.svg" alt="logo"> </a>
+        <ul>
+            <li> <a href="index.html">home</a> </li>
+            <li> <a href="ilfilm.html">il film</a> </li>
+            <li> <a href="curiosita.html">curiosità</a> </li>
+            <li> <a href="gallery.html">gallery</a> </li>
+        </ul>
+    </div>
+<!-- titolo pagina il film con video del trailer-->
+<div class="headerFilm">
+    <div id="h1C"> <h1> Il Film </h1> </div>
+    <div id="videotrailer"> <iframe src="https://www.youtube.com/embed/STakePJaYcM" title="YouTube video player"  style="border:0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</div>
+
+<!-- sezione descrizione -->
+<div class="itemFilm">
+    <button class="accordion" onclick=""> descrizione </button>
+    <div class="sezione">
+        <!-- immagine di sinistra descrizione-->
+        <div class="imgF1">
+            <img src="images/descrizione.jpg" alt="merida con arco e freccia">
+         </div>
+        <!-- testo a sinistra descrizione, con pretitolo, titolo, paragrafo e elenco-->
+        <div class="text">
+            <p class="pretitle"> ribelle the brave</p>
+            <h2> Descrizione </h2>
+            <p id="paragrafo-text" > La principessa Merida è coraggiosa, audace e insofferente alle regole di corte e preferisce cavalcare e tirare con l'arco piuttosto che sedere a tavola composta o pettinare i propri riccioli rossi. Costretta a sposare uno dei pretendenti che si contendono la sua mano, decide di sovvertire le regole e rinnegare la tradizione. Fuggita nei boschi per la disperazione, incontra una vecchia strega che le offre un rimedio magico ai suoi problemi</p>
+            <ul>
+                 <li><strong><span>Titolo originale:</span></strong> “Brave” </li>
+                <li><strong><span>Casa produttrice:</span></strong> Disney-Pixar </li>
+                <li><strong><span>Nazione:</span></strong> Stati Uniti </li>
+                <li><strong><span>Durata:</span></strong> 1h 33 min </li>
+                <li><strong><span>Data di uscita in Italia:</span></strong> 5 settembre 2012 </li>
+                <li><strong><span>Genere:</span></strong> Animazione, Avventura, Azione </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- sezione il cast-->
+<div class="itemFilm">
+    <button class="accordion"> il cast </button>
+    <div class="sezione2">
+        <!-- pretitolo, titolo e sottotitolo il cast-->
+        <div id="titolisezione2">
+            <p class="pretitle"> ribelle the brave</p>
+            <h2> Il cast </h2>
+            <p class="subtitle"> Personaggi principali</p>
+        </div>
+        <!--card personaggi principali-->
+        <div class="cardprincipali">
+            <!--card di Merida-->
+            <div class="card">
+                <img src="images/261.png" alt="volto di Merida">
+                <p class="nomecard"> Merida </p>
+                <p class="pcard"> doppiatrice originale: </p>
+                <p class="pcard"> <strong> Kelly Mcdonald</strong></p>
+                <p class="pcard"> doppiatrice italiana:</p>
+                <p class="pcard"> <strong> Rossa Caputo </strong></p>
+            </div>
+            <!-- card di ferguson-->
+            <div class="card">
+                <img src="images/261-2.png" alt="volto di ferguson">
+                <p class="nomecard"> Re Ferguson </p>
+                <p class="pcard"> doppiatore originale: </p>
+                <p class="pcard"> <strong> Billy Connolly</strong></p>
+                <p class="pcard"> doppiatore italiano:</p>
+                <p class="pcard"> <strong>  Ugo Maria Morosi </strong></p>
+            </div>
+            <!-- card di ELinor-->
+            <div class="card">
+                <img src="images/261-3.png" alt="volto di elinor">
+                <p class="nomecard"> Regina Elinor </p>
+                <p class="pcard"> doppiatrice originale: </p>
+                <p class="pcard"> <strong> Emma Thompson</strong></p>
+                <p class="pcard"> doppiatrice italiana:</p>
+                <p class="pcard"> <strong>  Emanuela Rossi </strong></p>
+            </div>
+        </div>
+        <!-- card personaggi secondari-->
+        <p class="subtitle"> Personaggi secondari</p>
+        <div class="cardsecondari">
+            <!-- card strega-->
+            <div class="card2">
+                <img src="images/261-strega.png" alt="volto della strega">
+                <p class="nomecard"> La strega </p>
+                <p class="pcard"> doppiatrice originale: </p>
+                <p class="pcard"> <strong> Julie Walters</strong></p>
+                <p class="pcard"> doppiatrice italiana:</p>
+                <p class="pcard"> <strong> Anna Mazzamuro </strong></p>
+            </div>
+            <!-- card lord Dingwall-->
+            <div class="card2">
+                <img src="images/261-dingwallpng.png" alt="volto di lord Dingwall">
+                <p class="nomecard"> Lord dingwall </p>
+                <p class="pcard"> doppiatore originale: </p>
+                <p class="pcard"> <strong> Robbie Coltrame </strong></p>
+                <p class="pcard"> doppiatore italiano:</p>
+                <p class="pcard"> <strong> Giobbe Covatta </strong></p>
+            </div>
+            <!--card lord McGuffin-->
+            <div class="card2">
+                <img src="images/261-MacGuffin.png" alt="volto di lord McGuffin">
+                <p class="nomecard"> lord macguffin </p>
+                <p class="pcard"> doppiatore originale: </p>
+                <p class="pcard"> <strong>  Kevin McKidd </strong></p>
+                <p class="pcard"> doppiatore italiano:</p>
+                <p class="pcard"> <strong> Shel Shapiro </strong></p>
+            </div>
+            <!-- card lord Macintosh-->
+            <div class="card2">
+                <img src="images/261-Macintosh.png" alt="volto di lord Macintosh">
+                <p class="nomecard"> lord macintosh </p>
+                <p class="pcard"> doppiatore originale: </p>
+                <p class="pcard"> <strong>  Craig Ferguson </strong></p>
+                <p class="pcard"> doppiatore italiano:</p>
+                <p class="pcard"> <strong> Enzo Iacchetti </strong></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- sezione regia -->
+<div class="itemFilm">
+    <button class="accordion"> regia </button>
+    <div class="sezione">
+        <!-- lato sinistra con la descrizione dei registi-->
+        <div class="text">
+            <div>
+                <p class="pretitle"> ribelle the brave </p>
+                <h2> Regia </h2>
+                <p> Il film è stato diretto da <u class="nomiregia"> Mark Andrews</u> e <u class="nomiregia"> Brenda Chapman</u>. Il loro lavoro per il film  “Ribelle: The Brave” li ha portati alla vittoria dell’oscar nella categoria “Miglior film d’animazione” nel 2013. </p>
+            </div>
+            <div>
+                <h3> Mark Andrews </h3>
+                <p> É nato il 12 settembre 1968 in California USA.
+                    È conosciuto per i suoi lavori per “Ribelle: the brave” (2012), “John Carter” (2012) e “Il gigante di Ferro” (1999).</p>
+            </div>
+            <div>
+                <h3> Brenda Chapman </h3>
+                <p> É nata il 1 Novembre 1962 a Beason, Illinois, USA.
+                    È conosciuta per il suo lavoro in “RIbelle: The brave” (2012), “Il principe d’Egitto” (1998), e “Il re leone” (1994).</p>
+            </div>
+        </div>
+        <!-- immagine di destra con la foto dei registi con il premio oscar-->
+        <div class="imgF1">
+            <img src="images/427-regia.png" alt="i registi del film ribelle alla premier dell'oscar">
+        </div>
+    </div>
+</div>
+
+<!-- sezione critica -->
+<div class="itemFilm">
+    <button class="accordion"> critica </button>
+    <div class="sezione">
+        <!-- immagine di sinistra-->
+        <div class="imgF1">
+            <img src="images/locandina-8.jpeg" alt="la locandina del film Ribelle-The brave">
+        </div>
+        <!-- descrizione della critica lato destro-->
+        <div class="text">
+            <div>
+                <p class="pretitle"> ribelle the brave </p>
+                <h2> Critica </h2>
+                <p id="paragrafocorsivo"> “Ribelle- the Brave offre al pubblico dei giovani ed ai fans dei racconti fantastici una travolgente avventura fantastica con una spirale dalla quale è impossibile distaccarsi e una sorprendente profondità” </p>
+                <p id="alignsn"> - Recensione di <strong> Rotten Tomatos </strong></p>
+            </div>
+            <!-- prima card con la recensione comingsoon-->
+            <div class="cardcritica">
+                <div class="valutazionestelle">
+                    <!-- div "stelle" che contiene le icone delle stelle-->
+                    <div class="stelle">
+                        <img src="Icon/StarFill.svg" alt="icona stella piena">
+                        <img src="Icon/StarFill.svg" alt="icona stella piena">
+                        <img src="Icon/StarFill.svg" alt="icona stella piena">
+                        <img src="Icon/StarFill.svg" alt="icona stella piena">
+                        <img src="Icon/StarEmpty.svg" alt="icona stella vuota">
+                    </div>
+                    <p> <strong class="maiuscolo">ComingSoon</strong> <strong class="colorblu"> - Domenico Misciagna</strong></p>
+                </div>
+                <div id="texcritica">
+                    <p> Per la prima volta la Pixar racconta la storia fantasy di una principessa: cedimento alla Disney o esplorazione di nuovi territori?</p>
+                </div>
+                <div class="buttoncritica">
+                    <a class="button" href="https://www.comingsoon.it/film/ribelle-the-brave/48416/recensione/"> leggi tutto </a>
+                </div>
+            </div>
+            <!-- seconda card con la recensione di movieplayer-->
+            <div class="cardcritica">
+                <div class="valutazionestelle">
+                    <div class="stelle">
+                        <img src="Icon/StarFill.svg" alt="icona stella piena">
+                        <img src="Icon/StarFill.svg" alt="icona stella piena">
+                        <img src="Icon/StarFill.svg" alt="icona stella piena">
+                        <img src="Icon/StarEmpty.svg" alt="icona stella vuota">
+                        <img src="Icon/StarEmpty.svg" alt="icona stella vuota">
+                    </div>
+                    <p> <strong class="maiuscolo">MoviePlayer.it</strong> <strong class="colorblu"> - Francesca Fiorentino</strong></p>
+                </div>
+                <div class="texcritica">
+                    <p> Il film è una magnifica opera che avrebbe potuto essere epocale se solo ci fosse stato un pizzico di temerarietà in più da parte degli autori, che hanno preferito non sconvolgere più di tanto una storia in fin dei conti canonica.</p>
+                </div>
+                <div class="buttoncritica">
+                    <a class="button" href="https://movieplayer.it/articoli/cuore-di-fuoco_9635/"> leggi tutto </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- sezione link-->
+<div class="itemFilm">
+    <button class="accordion"> link </button>
+    <div id="sezioneLink">
+        <div id="linksiti">
+            <h2> Link ai maggiori siti di cinema</h2>
+            <ul class="elencolink">
+                <li> <a href="https://www.mymovies.it/film/2012/brave/">Mymovies.it </a> </li>
+                <li> <a href="https://www.comingsoon.it/film/ribelle-the-brave/48416/scheda/">Cooming Soon </a> </li>
+                <li> <a href="https://www.rottentomatoes.com/m/brave_2012"> Rotten tomatos</a> </li>
+                <li> <a href="https://www.imdb.com/title/tt1217209/"> IMDB</a> </li>
+            </ul>
+        </div>
+        <div id="guardareilfilm">
+            <h2> Dove guardare <br> il film </h2>
+            <ul class="elencolink">
+                <li> <a href="https://www.disneyplus.com/it-it/movies/ribelle-the-brave/ovUp92sPbaSW"> Disney Plus </a> </li>
+                <li> <a href="https://play.google.com/store/movies/details/Ribelle_The_Brave?id=RxCRjHER5HE&hl=en_US"> Google Play </a> </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- footer-->
+<footer>
+    <div class="footer-content">
+        <ul class="link-sin">
+            <li> <a href="https://www.imdb.com/title/tt1217209/"> IMBD </a> </li>
+            <li> <a href="https://www.disneyplus.com/it-it/movies/ribelle-the-brave/ovUp92sPbaSW"> Guarda il film</a></li>
+        </ul>
+        <ul class="link-registi">
+            <li> <a href="https://www.imdb.com/name/nm0028764/?ref_=tt_cl_dr_1"> Mark Andrew</a></li>
+            <li> <a href="https://www.imdb.com/name/nm0152312/?ref_=tt_cl_dr_2"> Brenda Chapman</a></li>
+        </ul>
+        <ul class="link-attori">
+            <li> <a href="https://www.imdb.com/name/nm0531808/?ref_=tt_cl_i_1"> Kelly Mcdonald</a></li>
+            <li> <a href="https://www.imdb.com/name/nm0175262/?ref_=tt_cl_i_2"> Billy Connolli</a></li>
+            <li> <a href="https://www.imdb.com/name/nm0000668/?ref_=tt_cl_t_3"> Emma Thompson </a></li>
+        </ul>
+    </div>
+    <hr>
+    <div class="footer-basso">
+        <div class="copyright"> <p>Copyright Chiara Piccinini</p></div>
+        <div class="disney"> <a href="https://www.pixar.com/"> <img src="images/disneypixar.png" alt="logo-disney"> </a> </div>
+        <div class="social">
+            <a href="https://www.facebook.com/PixarBrave"><img src="Icon/Facebook.svg" alt="Social-Facebook"> </a>
+            <a href="https://twitter.com/pixarbrave?s=11"><img src="Icon/Twitter.svg" alt="Social-Twitter"> </a>
+        </div>
+    </div>
+
+</footer>
+</body>
+</html>
